@@ -1,0 +1,45 @@
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: red;
+    height: 50px;
+    padding: 8px;
+    color: white;
+}
+
+.text-logo{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+nav{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+}
+
+nav a:hover{
+    text-decoration: underline;
+}
+
+nav button{
+    background-color: white;
+    border-radius: 10px;
+    padding: 2px 8px 2px 8px;
+    cursor: pointer;
+    border: none;
+}
+
+nav button:hover{
+    background-color: white;
+    border-radius: 10px;
+    padding: 2px 8px 2px 8px;
+    cursor: pointer;
+}
